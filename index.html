@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/styles.css">
+    <title>HTML & CSS Review</title>
+</head>
+
+<body>
+    <header>
+
+        <h1>
+            HTML & CSS in Review
+        </h1>
+
+        <!-- Nav links to subheadings -->
+        <nav>
+            <ul class="navlink">
+
+                <li>
+                    <a href="#HTML" target="_self">
+                        HTML
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#CSS" target="_self">
+                        CSS
+                    </a>
+                </li>
+
+            </ul>
+        </nav>
+
+    </header>
+
+    <main>
+
+        <h2 id="HTML">
+            HTML
+        </h2>
+
+        <p>
+            HTML of 'HyperText Markup Language' is used to produce content for websites. It is capable of producing text, graphics and hyperlinks in several different formats. With further customization becoming available through the use of CSS. Most if not all of the foundational functionality of a website can be achieved through using HTML.
+        </p>
+
+        <h3>
+            How to Write HTML
+        </h3>
+
+        <p>
+            HTML consists of `elements` which wrap content to make it appear or behave a certain way. The wrappers on either end are referred to as `tags`.
+        </p>
+
+        <p>
+            &lt; opening tag &gt; CONTENT BODY &lt closing tag &gt;
+        </p>
+
+        <p>
+            The combination of all the above features is referred to as an `element`.
+        </p>
+
+        <p>
+            `Elements` can also contain extra information in the form of `attributes`.
+        </p>
+
+        <p>
+            &lt; p class = "content-descriptor" &gt; CONTENT BODY &lt; closing tag &gt;
+        </p>
+
+        <p>
+            The above example features an `attribute` called `class` with a placeholder value of `content-descriptor`.
+        </p>
+
+        <h4>
+            Invoking an Attribute
+        </h4>
+
+        <p>
+            The format must be as follows:
+        </p>
+
+        <ol>
+            <li>
+                <p>
+                    There must be a space between the attribute name and the element name
+                </p>
+            </li>
+            <li>
+                <p>
+                    The attribute name must be followed by an `=` sign
+                </p>
+            </li>
+            <li>
+                <p>
+                    The attribute value is wrapped in `""`
+                </p>
+            </li>
+        </ol>
+
+        <h4>
+            Nesting Elements
+        </h4>
+
+        <p>
+            Nesting refers to when an `element` is put inside another `element`. When nesting `elements` the tag last opened must be the first closed. Otherwise the browser attempts to guess your meaning which can result in an unpredictable output.
+        </p>
+
+        <h4>
+            Empty Elements
+        </h4>
+
+        <p>
+            Some `elements` are empty and do not wrap any content. An example of this is the `&lt; img &gt;` tag.
+        </p>
+
+        <p>
+            `&lt; img src="image_directory/image_name.jpg" alt="description in case img doesn't load" &gt;`
+        </p>
+
+        <p>
+            As can be seen there is no closing tag for this element. This is as it does not wrap anything. Its purpose is simply to embed an image in the HTML page.
+        </p>
+
+        <h4>
+            Anatomy of an HTML Doc
+        </h4>
+
+        <p>
+            `&lt; !DOCTYPE html &gt;` - ensure the document is recognized as an HTML doc
+        </p>
+
+        <p>
+            `&lt; html &gt; &lt; /html &gt;` - wraps all the content in the page you are coding
+        </p>
+
+        <p>
+            `&lt; head &gt; &lt; /head &gt;` - a container for all the content you want to introduce but don't want users to see
+        </p>
+
+        <p>
+            `&lt; meta charset="utf-8" &gt;` - enables doc to read and execute any textual content put in it
+        </p>
+        <p>
+            `&lt; meta name="viewport" content="width=device-width" &gt;` - ensures page renders at width of user's viewport
+        </p>
+        <p>
+            `&lt; title &gt; &lt; /title &gt;` - sets the title of your page (tab name)
+        </p>
+        <p>
+            `&lt; body &gt; &lt; /body &gt;` - contains all the content you want your user to see and interact with
+        </p>
+
+        <h4>
+            Headings & Paragraphs
+        </h4>
+
+        <ul>
+            <li>
+                <p>
+                    `&lt; h1 &gt;` - Title of webpage
+                </p>
+            </li>
+            <li>
+                <p>
+                    `&lt; h2 &gt;` - Title of Section
+                </p>
+            </li>
+            <li>
+                <p>
+                    `&lt; h3 &gt;` - Subheading 1
+                </p>
+            </li>
+            <li>
+                <p>
+                    `&lt; h4 &gt;` - Subheading 2
+                </p>
+            </li>
+            <li>
+                <p>
+                    `&lt; h5 &gt;` - Subheading 3
+                </p>
+            </li>
+            <li>
+                <p>
+                    `&lt; h6 &gt;` - Subheading 4
+                </p>
+            </li>
+        </ul>
+
+        <p>
+            Headings specify textual content that is to be treated as a heading or sub-heading. As the numbers increase in value, the size and boldness of the title formatting decreases.
+        </p>
+
+        <p>
+            Paragraphs function exactly as they do in written english. The only difference being that they too must be wrapped in element tags. Specifically the element tag:
+        </p>
+
+        <p>
+            `&lt; p &gt; PARA CONTENT &lt; p &gt;`
+        </p>
+
+        <h4>
+            Lists & Links
+        </h4>
+
+        <p>
+            There are two types of lists within HTML, the unordered and ordered list. The difference between them being that the unordered list produces bullet points. Whereas the ordered list produces descending numbers. Each of the two has their own tag.
+        </p>
+
+        <p>
+            `&lt; ul &gt; &lt; /ul &gt;` - unordered list
+        </p>
+
+        <p>
+            `&lt; ol &gt; &lt; /ol &gt; - ordered list
+        </p>
+
+        <p>
+            Regardless of the type of list, there is a further, nested element tag that is required to change the list structure:
+        </p>
+
+        <p>
+            `&lt; li &gt; &lt; /li &gt;`
+        </p>
+
+        <p>
+            The above tag flags each item within the list an can contain a paragraph tag wrapping text or even an anchor tag containing a hyperlink. The latter use case is common when building a nav-bar structure.
+        </p>
+
+        <h4>
+            Links
+        </h4>
+
+        <p>
+            The anchor tag is used to wrap any text that you wish to be a hyperlink. Using the `href` attribute we can create a reference point for where the hyperlink goes to, through the value assignment. A good way to remember this is that `href` stands for "Hypertext Reference".
+        </p>
+
+        <p>
+            `&lt; a href:"https://www.gotothissite.com" &gt; CHECK OUT THIS SITE!!!! &lt; /a &gt;`
+        </p>
+
+        <p>
+            Always include the protocol (https:// or http://) or you may get unexpected results.
+        </p>
+
+        <h2 id="CSS">
+            CSS
+        </h2>
+        <h3>
+            The Function of CSS
+        </h3>
+        <h3>
+            How to Write CSS
+        </h3>
+
+    </main>
+
+    <footer>
+
+        <nav>
+            <ul>
+                <li>
+                    HTML
+                </li>
+                <li>
+                    CSS
+                </li>
+            </ul>
+        </nav>
+
+        <!-- Student name + ID -->
+
+    </footer>
+</body>
+</html>
+
+<!-- Design Considerations:
+- h1 => display font + text color of personal choice
+- h2 => same as above
+- background/elements => sufficient contrast
+- max-width page = 1000px
+- At least one image => appropriate scale to webpage
+    less than 1mb and with sufficient alt text
+- Line length = 80 characters
+- Sufficient spacing between text elements
+    Avoid custom margin/padding where possible
+- Don't use line break element
+- Validate HTML + CSS
+-->
+
