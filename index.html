@@ -43,7 +43,7 @@
         </h2>
 
         <p>
-            HTML of 'HyperText Markup Language' is used to produce content for websites. It is capable of producing text, graphics and hyperlinks in several different formats. With further customization becoming available through the use of CSS. Most if not all of the foundational functionality of a website can be achieved through using HTML.
+            HTML of 'HyperText Markup Language' is used to produce content for websites. It is capable of producing text, graphics and hyperlinks in several different formats. In short it defines the basic structure and format of the content on a webpage.
         </p>
 
         <h3>
@@ -51,27 +51,27 @@
         </h3>
 
         <p>
-            HTML consists of `elements` which wrap content to make it appear or behave a certain way. The wrappers on either end are referred to as `tags`.
+            HTML consists of <code>elements</code> which wrap content to make it appear or behave a certain way. The wrappers on either end are referred to as <code>tags</code>.
+        </p>
+
+        <code>
+            &lt;opening tag&gt; CONTENT BODY &lt;closing tag&gt;
+        </code>
+
+        <p>
+            The combination of all the above features is referred to as an <code>element</code>.
         </p>
 
         <p>
-            &lt; opening tag &gt; CONTENT BODY &lt closing tag &gt;
+            <code>Elements</code> can also contain extra information in the form of <code>attributes</code>.
         </p>
 
-        <p>
-            The combination of all the above features is referred to as an `element`.
-        </p>
+        <code>
+            &lt;p class="content-descriptor"&gt; CONTENT BODY &lt;closing tag&gt;
+        </code>
 
         <p>
-            `Elements` can also contain extra information in the form of `attributes`.
-        </p>
-
-        <p>
-            &lt; p class = "content-descriptor" &gt; CONTENT BODY &lt; closing tag &gt;
-        </p>
-
-        <p>
-            The above example features an `attribute` called `class` with a placeholder value of `content-descriptor`.
+            The above example features an <code>attribute</code> called <code>class</code> with a placeholder <code>value</code> of "content-descriptor".
         </p>
 
         <h4>
@@ -85,17 +85,17 @@
         <ol>
             <li>
                 <p>
-                    There must be a space between the attribute name and the element name
+                    There must be a space between the <code>attribute</code> name and the <code>element</code> name
                 </p>
             </li>
             <li>
                 <p>
-                    The attribute name must be followed by an `=` sign
+                    The <code>attribute</code> name must be followed by an <code>=</code> sign
                 </p>
             </li>
             <li>
                 <p>
-                    The attribute value is wrapped in `""`
+                    The <code>attribute value</code> must be wrapped in <code>" "</code>
                 </p>
             </li>
         </ol>
@@ -105,7 +105,7 @@
         </h4>
 
         <p>
-            Nesting refers to when an `element` is put inside another `element`. When nesting `elements` the tag last opened must be the first closed. Otherwise the browser attempts to guess your meaning which can result in an unpredictable output.
+            Nesting refers to when an <code>element</code> is put inside another <code>element</code>. When nesting <code>elements</code> the tag last opened must be the first closed. Otherwise the browser attempts to guess your meaning which can result in an unpredictable output.
         </p>
 
         <h4>
@@ -113,94 +113,115 @@
         </h4>
 
         <p>
-            Some `elements` are empty and do not wrap any content. An example of this is the `&lt; img &gt;` tag.
+            Some <code>elements</code> are empty and do not wrap any content. An example of this is <code>&lt;img&gt;</code>
         </p>
 
-        <p>
-            `&lt; img src="image_directory/image_name.jpg" alt="description in case img doesn't load" &gt;`
-        </p>
+        <code>
+            &lt;img src="image_directory/image_name.jpg" alt="description in case img doesn't load"&gt;
+        </code>
 
         <p>
-            As can be seen there is no closing tag for this element. This is as it does not wrap anything. Its purpose is simply to embed an image in the HTML page.
+            As can be seen there is no closing tag for this <code>element</code>. This is as it does not wrap anything. Its purpose is simply to embed an image in the HTML page.
         </p>
 
         <h4>
             Anatomy of an HTML Doc
         </h4>
+        
+        <pre>
+            <code>
+    &lt;!DOCTYPE html&gt;
+    &lt;html lang="en-US"&gt;
+
+    &lt;head&gt;
+        &lt;meta charset="utf-8"&gt;
+        &lt;meta name="viewport" content="width=device-width"&gt;
+        &lt;title&gt;My test page&lt;title&gt;
+    &lt;/head&gt;
+
+    &lt;body&gt;
+        &lt;img src="image/file/path" alt="image description"&gt;
+    &lt;/body&gt;
+
+    &lt;/html&gt;
+            </code>
+        </pre>
 
         <p>
-            `&lt; !DOCTYPE html &gt;` - ensure the document is recognized as an HTML doc
+            <code>&lt;!DOCTYPE html&gt;</code> - ensure the document is recognized as an HTML doc
         </p>
 
         <p>
-            `&lt; html &gt; &lt; /html &gt;` - wraps all the content in the page you are coding
+            <code>&lt;html&gt; &lt;/html&gt;</code> - wraps all the content in the page you are coding
         </p>
 
         <p>
-            `&lt; head &gt; &lt; /head &gt;` - a container for all the content you want to introduce but don't want users to see
+            <code>&lt;head&gt; &lt;/head&gt;</code> - a container for all the content you want to introduce but don't want users to see
         </p>
 
         <p>
-            `&lt; meta charset="utf-8" &gt;` - enables doc to read and execute any textual content put in it
+            <code>&lt;meta charset="utf-8"&gt;</code> - enables doc to read and execute any textual content put in it
         </p>
         <p>
-            `&lt; meta name="viewport" content="width=device-width" &gt;` - ensures page renders at width of user's viewport
+            <code>&lt;meta name="viewport" content="width=device-width"&gt;</code> - ensures page renders at width of user's viewport
         </p>
         <p>
-            `&lt; title &gt; &lt; /title &gt;` - sets the title of your page (tab name)
+            <code>&lt;title&gt; &lt;/title&gt;</code> - sets the title of your page (tab name)
         </p>
         <p>
-            `&lt; body &gt; &lt; /body &gt;` - contains all the content you want your user to see and interact with
+            <code>&lt;body&gt; &lt;/body&gt;</code> - contains all the content you want your user to see and interact with
         </p>
 
         <h4>
-            Headings & Paragraphs
+            Headings
         </h4>
 
         <ul>
             <li>
                 <p>
-                    `&lt; h1 &gt;` - Title of webpage
+                    <code>&lt;h1&gt;</code> - Title of webpage
                 </p>
             </li>
             <li>
                 <p>
-                    `&lt; h2 &gt;` - Title of Section
+                    <code>&lt;h2&gt;</code> - Title of Section
                 </p>
             </li>
             <li>
                 <p>
-                    `&lt; h3 &gt;` - Subheading 1
+                    <code>&lt;h3&gt;</code> - Subheading 1
                 </p>
             </li>
             <li>
                 <p>
-                    `&lt; h4 &gt;` - Subheading 2
+                    <code>&lt;h4&gt;</code> - Subheading 2
                 </p>
             </li>
             <li>
                 <p>
-                    `&lt; h5 &gt;` - Subheading 3
+                    <code>&lt;h5&gt;</code> - Subheading 3
                 </p>
             </li>
             <li>
                 <p>
-                    `&lt; h6 &gt;` - Subheading 4
+                    <code>&lt;h6&gt;</code> - Subheading 4
                 </p>
             </li>
         </ul>
 
+        <h4>Paragraphs</h4>
+
         <p>
-            Headings specify textual content that is to be treated as a heading or sub-heading. As the numbers increase in value, the size and boldness of the title formatting decreases.
+            Heading tags specify textual content that is to be treated as a heading or sub-heading. As the numbers increase in value, the size and boldness of the title formatting decreases.
         </p>
 
         <p>
-            Paragraphs function exactly as they do in written english. The only difference being that they too must be wrapped in element tags. Specifically the element tag:
+            Paragraphs also function exactly as they do in written english. The only difference being that they too must be wrapped in element tags. Specifically the element tag:
         </p>
 
-        <p>
-            `&lt; p &gt; PARA CONTENT &lt; p &gt;`
-        </p>
+        <code>
+            &lt;p&gt; PARA CONTENT &lt;p&gt;
+        </code>
 
         <h4>
             Lists & Links
@@ -211,20 +232,20 @@
         </p>
 
         <p>
-            `&lt; ul &gt; &lt; /ul &gt;` - unordered list
+            <code>&lt;ul&gt; &lt;/ul&gt;</code> - unordered list
         </p>
 
         <p>
-            `&lt; ol &gt; &lt; /ol &gt; - ordered list
+            <code>&lt;ol&gt; &lt;/ol&gt;</code> - ordered list
         </p>
 
         <p>
             Regardless of the type of list, there is a further, nested element tag that is required to change the list structure:
         </p>
 
-        <p>
-            `&lt; li &gt; &lt; /li &gt;`
-        </p>
+        <code>
+            &lt;li&gt; &lt;/li&gt;
+        </code>
 
         <p>
             The above tag flags each item within the list an can contain a paragraph tag wrapping text or even an anchor tag containing a hyperlink. The latter use case is common when building a nav-bar structure.
@@ -235,12 +256,12 @@
         </h4>
 
         <p>
-            The anchor tag is used to wrap any text that you wish to be a hyperlink. Using the `href` attribute we can create a reference point for where the hyperlink goes to, through the value assignment. A good way to remember this is that `href` stands for "Hypertext Reference".
+            The <code>anchor</code> tag is used to wrap any text that you wish to be a hyperlink. Using the <code>href attribute</code> we can create a reference point for where the hyperlink goes to, through the value assignment. A good way to remember this is that <code>href</code> stands for "Hypertext Reference".
         </p>
 
-        <p>
-            `&lt; a href:"https://www.gotothissite.com" &gt; CHECK OUT THIS SITE!!!! &lt; /a &gt;`
-        </p>
+        <code>
+            &lt;a href:"https://www.gotothissite.com"&gt; CHECK OUT THIS SITE!!!! &lt;/a&gt;
+        </code>
 
         <p>
             Always include the protocol (https:// or http://) or you may get unexpected results.
