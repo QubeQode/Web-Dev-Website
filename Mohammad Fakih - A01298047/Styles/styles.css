@@ -14,6 +14,11 @@ header {
     align-content: center;
 }
 
+main {
+    display: flex;
+    flex-direction: column;
+}
+
 h1 {
     color:rgb(182, 193, 203);
     font-family: 'Silkscreen', cursive;
@@ -22,18 +27,46 @@ h1 {
     margin: 0px;
 }
 
-.navlink {
-    list-style: none;
-    padding-left: 0rem;
+.navbar-container {
+    margin-top: 3.8rem;
+    border-radius: 1.2rem;
+    padding: 0.4rem;
+    border: 0.085rem solid rgb(2, 202, 42);
 }
 
-.navlink li {   
-    width: 50%;
+.index-header {
+    font-size: large;
+    padding-left: 0.4rem;
+    color:rgb(2, 202, 42);
+    font-variant: all-small-caps;
+    text-decoration: underline;
+    margin: 0.4rem 0;
+}
+
+.navlink {
+    list-style: none;
+    padding-left: 1.6rem;
+}
+
+.navlink li {
+    margin-bottom: 0.8rem;
+}
+
+.navlink li::before {
+    content: "\2022";
+    color:rgb(2, 202, 42);
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
 }
 
 a {
     text-decoration: none;
-    margin: 0.5rem;
+    color: rgb(2, 202, 42);
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .neumorphic-box {
@@ -50,6 +83,19 @@ a {
     margin: auto;
 }
 
+.image-container {
+    align-self: center;
+    margin-bottom: 2.6rem;
+    border-radius: 1.2rem;
+    padding: 0.4rem;
+    border: 0.085rem solid rgb(2, 202, 42);
+}
+
+img {
+    border-radius: 0.8rem;
+    display: block;
+}
+
 p {
     margin: 1.3rem auto;
 }
@@ -57,6 +103,11 @@ p {
 code {
     color: rgb(2, 202, 42);
     letter-spacing: 0.04rem;
+}
+
+#signature-line {
+    margin: 0.4rem;
+    font-size: small;
 }
 
 h2 {
