@@ -52,520 +52,610 @@ Please submit a .zip (no .7z or .rar files) of your folder, containing your .htm
             HTML
         </h2>
 
-        <div>
-            <p>
-                HTML (HyperText Markup Language) is used to produce content for websites. It is capable of differentiating text into titles, headings, sub-headings and paragraphs. It can also create basic formats like producing numbered lists, bulleted lists and tables. In short it defines the basic layout and format of the content on a webpage.
-            </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    HTML (HyperText Markup Language) is used to produce content for websites. It is capable of differentiating text into titles, headings, sub-headings and paragraphs. It can also create basic formats like producing numbered lists, bulleted lists and tables. In short it defines the basic layout and format of the content on a webpage.
+                </p>
+            </div>
         </div>
         
         <h3>
             How to Write HTML
         </h3>
         
-        <div>
-            <p>
-                HTML functions on <code>elements</code> which wrap content to make it appear or behave a certain way. The wrappers on either end are referred to as <code>tags</code>.
-            </p>
-    
-            <code>
-                &lt;opening tag&gt; CONTENT BODY &lt;closing tag&gt;
-            </code>
-    
-            <p>
-                The combination of all the above features is what is referred to as an <code>element</code>.
-            </p>
-    
-            <p>
-                <code>Elements</code> can also contain extra information in the form of <code>attributes</code>.
-            </p>
-    
-            <code>
-                &lt;p class="content-descriptor"&gt; CONTENT BODY &lt;closing tag&gt;
-            </code>
-    
-            <p>
-                The above example features an <code>attribute</code> called <code>class</code> with a placeholder <code>value</code> of "content-descriptor".
-            </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    HTML functions on <code>elements</code> which wrap content to make it appear or behave a certain way. The wrappers on either end are referred to as <code>tags</code>.
+                </p>
+        
+                <code>
+                    &lt;opening tag&gt; CONTENT BODY &lt;closing tag&gt;
+                </code>
+        
+                <p>
+                    The combination of all the above features is what is referred to as an <code>element</code>.
+                </p>
+        
+                <p>
+                    <code>Elements</code> can also contain extra information in the form of <code>attributes</code>.
+                </p>
+        
+                <code>
+                    &lt;p class="content-descriptor"&gt; CONTENT BODY &lt;closing tag&gt;
+                </code>
+        
+                <p>
+                    The above example features an <code>attribute</code> called <code>class</code> with a placeholder <code>value</code> of "content-descriptor".
+                </p>
+            </div>
         </div>
 
         <h4>
             Invoking an Attribute
         </h4>
 
-        <div>
-            <p>
-                The format must be as follows:
-            </p>
-    
-            <ol>
-                <li>
-                    <p>
-                        There must be a space between the <code>attribute</code> name and the <code>element</code> name
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The <code>attribute</code> name must be followed by an <code>=</code> sign
-                    </p>
-                </li>
-                <li>
-                    <p>
-                        The <code>attribute value</code> must be wrapped in <code>" "</code>
-                    </p>
-                </li>
-            </ol>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    The format must be as follows:
+                </p>
+        
+                <ol>
+                    <li>
+                        <p>
+                            There must be a space between the <code>attribute</code> name and the <code>element</code> name
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The <code>attribute</code> name must be followed by an <code>=</code> sign
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            The <code>attribute value</code> must be wrapped in <code>" "</code>
+                        </p>
+                    </li>
+                </ol>
+            </div>
         </div>
 
         <h4>
             Nesting Elements
         </h4>
 
-        <p>
-            Nesting refers to when an <code>element</code> is put inside another <code>element</code>. When nesting <code>elements</code> the tag last opened must be the first closed. Otherwise the browser attempts to guess your meaning which can result in an unpredictable output.
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    Nesting refers to when an <code>element</code> is put inside another <code>element</code>. When nesting <code>elements</code> the tag last opened must be the first closed. Otherwise the browser attempts to guess your meaning which can result in an unpredictable output.
+                </p>
+            </div>
+        </div>
 
         <h4>
             Empty Elements
         </h4>
 
-        <p>
-            Some <code>elements</code> are empty and do not wrap any content. An example of this is <code>&lt;img&gt;</code>
-        </p>
-
-        <code>
-            &lt;img src="image_directory/image_name.jpg" alt="description in case img doesn't load"&gt;
-        </code>
-
-        <p>
-            As can be seen there is no closing tag for this <code>element</code>. This is as it does not wrap anything. Its purpose is simply to embed an image in the HTML page.
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    Some <code>elements</code> are empty and do not wrap any content. An example of this is <code>&lt;img&gt;</code>
+                </p>
+                
+                <pre>
+                    <code>
+&lt;img 
+    src="image_directory/image_name.jpg" 
+    alt="description in case img doesn't load"
+&gt;
+                    </code>
+                </pre>
+        
+                <p>
+                    As can be seen there is no closing tag for this <code>element</code>. This is as it does not wrap anything. Its purpose is simply to embed an image in the HTML page.
+                </p>
+            </div>
+        </div>
 
         <h4>
             Anatomy of an HTML Doc
         </h4>
         
-        <pre>
-            <code>
-    &lt;!DOCTYPE html&gt;
-    &lt;html lang="en-US"&gt;
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <pre>
+                    <code>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en-US"&gt;
 
-    &lt;head&gt;
-        &lt;meta charset="utf-8"&gt;
-        &lt;meta name="viewport" content="width=device-width"&gt;
-        &lt;title&gt;My test page&lt;title&gt;
-    &lt;/head&gt;
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;meta name="viewport" content="width=device-width"&gt;
+    &lt;title&gt;My test page&lt;title&gt;
+&lt;/head&gt;
 
-    &lt;body&gt;
-        &lt;img src="image/file/path" alt="image description"&gt;
-    &lt;/body&gt;
+&lt;body&gt;
+    &lt;img src="image/file/path" alt="image description"&gt;
+&lt;/body&gt;
 
-    &lt;/html&gt;
-            </code>
-        </pre>
-
-        <p>
-            <code>&lt;!DOCTYPE html&gt;</code> - ensure the document is recognized as an HTML doc
-        </p>
-
-        <p>
-            <code>&lt;html&gt; &lt;/html&gt;</code> - wraps all the content in the page you are coding
-        </p>
-
-        <p>
-            <code>&lt;head&gt; &lt;/head&gt;</code> - a container for all the content you want to introduce but don't want users to see
-        </p>
-
-        <p>
-            <code>&lt;meta charset="utf-8"&gt;</code> - enables doc to read and execute any textual content put in it
-        </p>
-        <p>
-            <code>&lt;meta name="viewport" content="width=device-width"&gt;</code> - ensures page renders at width of user's viewport
-        </p>
-        <p>
-            <code>&lt;title&gt; &lt;/title&gt;</code> - sets the title of your page (tab name)
-        </p>
-        <p>
-            <code>&lt;body&gt; &lt;/body&gt;</code> - contains all the content you want your user to see and interact with
-        </p>
+&lt;/html&gt;
+                    </code>
+                </pre>
+        
+                <p>
+                    <code>&lt;!DOCTYPE html&gt;</code> - ensure the document is recognized as an HTML doc
+                </p>
+        
+                <p>
+                    <code>&lt;html&gt; &lt;/html&gt;</code> - wraps all the content in the page you are coding
+                </p>
+        
+                <p>
+                    <code>&lt;head&gt; &lt;/head&gt;</code> - a container for all the content you want to introduce but don't want users to see
+                </p>
+        
+                <p>
+                    <code>&lt;meta charset="utf-8"&gt;</code> - enables doc to read and execute any textual content put in it
+                </p>
+                <p>
+                    <code>&lt;meta name="viewport" content="width=device-width"&gt;</code> - ensures page renders at width of user's viewport
+                </p>
+                <p>
+                    <code>&lt;title&gt; &lt;/title&gt;</code> - sets the title of your page (tab name)
+                </p>
+                <p>
+                    <code>&lt;body&gt; &lt;/body&gt;</code> - contains all the content you want your user to see and interact with
+                </p>
+            </div>
+        </div>
 
         <h4>
             Headings
         </h4>
 
-        <ul>
-            <li>
-                <p>
-                    <code>&lt;h1&gt;</code> - Title of webpage
-                </p>
-            </li>
-            <li>
-                <p>
-                    <code>&lt;h2&gt;</code> - Title of Section
-                </p>
-            </li>
-            <li>
-                <p>
-                    <code>&lt;h3&gt;</code> - Subheading 1
-                </p>
-            </li>
-            <li>
-                <p>
-                    <code>&lt;h4&gt;</code> - Subheading 2
-                </p>
-            </li>
-            <li>
-                <p>
-                    <code>&lt;h5&gt;</code> - Subheading 3
-                </p>
-            </li>
-            <li>
-                <p>
-                    <code>&lt;h6&gt;</code> - Subheading 4
-                </p>
-            </li>
-        </ul>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <ul>
+                    <li>
+                        <p>
+                            <code>&lt;h1&gt;</code> - Title of webpage
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <code>&lt;h2&gt;</code> - Title of Section
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <code>&lt;h3&gt;</code> - Subheading 1
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <code>&lt;h4&gt;</code> - Subheading 2
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <code>&lt;h5&gt;</code> - Subheading 3
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <code>&lt;h6&gt;</code> - Subheading 4
+                        </p>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
         <h4>Paragraphs</h4>
 
-        <p>
-            Heading tags specify textual content that is to be treated as a heading or sub-heading. As the numbers increase in value, the size and boldness of the title formatting decreases.
-        </p>
-
-        <p>
-            Paragraphs also function exactly as they do in written english. The only difference being that they too must be wrapped in element tags. Specifically the element tag:
-        </p>
-
-        <code>
-            &lt;p&gt; PARA CONTENT &lt;p&gt;
-        </code>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    Heading tags specify textual content that is to be treated as a heading or sub-heading. As the numbers increase in value, the size and boldness of the title formatting decreases.
+                </p>
+        
+                <p>
+                    Paragraphs also function exactly as they do in written english. The only difference being that they too must be wrapped in element tags. Specifically the element tag:
+                </p>
+        
+                <code>
+                    &lt;p&gt; PARA CONTENT &lt;p&gt;
+                </code>
+            </div>
+        </div>
 
         <h4>
             Lists
         </h4>
 
-        <p>
-            There are two types of lists within HTML, the unordered and ordered list. The difference between them being that the unordered list produces bullet points. Whereas the ordered list produces descending numbers. Each of the two has their own tag.
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    There are two types of lists within HTML, the unordered and ordered list. The difference between them being that the unordered list produces bullet points. Whereas the ordered list produces descending numbers. Each of the two has their own tag.
+                </p>
+        
+                <p>
+                    <code>&lt;ul&gt; &lt;/ul&gt;</code> - unordered list
+                </p>
+        
+                <p>
+                    <code>&lt;ol&gt; &lt;/ol&gt;</code> - ordered list
+                </p>
+        
+                <p>
+                    Regardless of the type of list, there is a further, nested element tag that is required to change the list structure:
+                </p>
+        
+                <code>
+                    &lt;li&gt; &lt;/li&gt;
+                </code>
+        
+                <p>
+                    The above tag flags each item within the list an can contain a paragraph tag wrapping text or even an anchor tag containing a hyperlink. The latter use case is common when building a nav-bar structure.
+                </p>
+            </div>
+        </div>
 
-        <p>
-            <code>&lt;ul&gt; &lt;/ul&gt;</code> - unordered list
-        </p>
-
-        <p>
-            <code>&lt;ol&gt; &lt;/ol&gt;</code> - ordered list
-        </p>
-
-        <p>
-            Regardless of the type of list, there is a further, nested element tag that is required to change the list structure:
-        </p>
-
-        <code>
-            &lt;li&gt; &lt;/li&gt;
-        </code>
-
-        <p>
-            The above tag flags each item within the list an can contain a paragraph tag wrapping text or even an anchor tag containing a hyperlink. The latter use case is common when building a nav-bar structure.
-        </p>
 
         <h4>
             Links
         </h4>
 
-        <p>
-            The <code>anchor</code> tag is used to wrap any text that you wish to be a hyperlink. Using the <code>href attribute</code> we can create a reference point for where the hyperlink goes to, through the value assignment. A good way to remember this is that <code>href</code> stands for "Hypertext Reference".
-        </p>
-
-        <code>
-            &lt;a href:"https://www.gotothissite.com"&gt; CHECK OUT THIS SITE!!!! &lt;/a&gt;
-        </code>
-
-        <p>
-            Always include the protocol (https:// or http://) or you may get unexpected results.
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    The <code>anchor</code> tag is used to wrap any text that you wish to be a hyperlink. Using the <code>href attribute</code> we can create a reference point for where the hyperlink goes to, through the value assignment. A good way to remember this is that <code>href</code> stands for "Hypertext Reference".
+                </p>
+        
+                <code>
+                    &lt;a href:"https://www.gotothissite.com"&gt; CHECK OUT THIS SITE!!!! &lt;/a&gt;
+                </code>
+        
+                <p>
+                    Always include the protocol (https:// or http://) or you may get unexpected results.
+                </p>
+            </div>
+        </div>
 
         <h2 id="CSS">
             CSS
         </h2>
 
-        <p>
-            CSS (Cascading Style Sheets) primarily revolves around presentation. Although HTML includes some basic formatting of its own, CSS injects color, font styling and customizable spacing into designs. The easy to read, colorful and unique websites of today's web all make use of these exact principles. In particular, CSS's spacing capabilities are a large factor to the clean look of modern websites.
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    CSS (Cascading Style Sheets) primarily revolves around presentation. Although HTML includes some basic formatting of its own, CSS injects color, font styling and customizable spacing into designs. The easy to read, colorful and unique websites of today's web all make use of these exact principles. In particular, CSS's spacing capabilities are a large factor to the clean look of modern websites.
+                </p>
+            </div>
+        </div>
 
         <h3>
             How to Write CSS
         </h3>
 
-        <p>
-            CSS functions on <code>rulesets</code> that dictate rules to the web browser on how to display given HTML elements. The two languages work in tandem in order to create web content customized to the creator's vision. As such the first thing that must be done is to connect the CSS file to the HTML file.
-        </p>
-
-        <code>
-            &lt;link href="filePath/styles/fileName.css" rel="stylesheet"&gt;
-        </code>
-
-        <p>
-            The stylesheet should be made in a seperate directory to the HTML file called "styles". And the above code should be replicated in the head of the HTML document.
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    CSS functions on <code>rulesets</code> that dictate rules to the web browser on how to display given HTML elements. The two languages work in tandem in order to create web content customized to the creator's vision. As such the first thing that must be done is to connect the CSS file to the HTML file.
+                </p>
+        
+                <code>
+                    &lt;link href="filePath/styles/fileName.css" rel="stylesheet"&gt;
+                </code>
+        
+                <p>
+                    The stylesheet should be made in a seperate directory to the HTML file called "styles". And the above code should be replicated in the head of the HTML document.
+                </p>
+            </div>
+        </div>
 
         <h4>
             Rulesets
         </h4>
 
-        <pre>
-            <code>
-    selector {
-        property: property value;
-    }
-            </code>
-        </pre>
-
-        <p>
-            The above structure of code snippet is what is referred to as a <code>ruleset</code>. Every ruleset consists of the following pieces
-        </p>
-
-        <p>
-            <code>selector</code> - Defines the element to be styled
-        </p>
-
-        <p>
-            <code>declaration</code> - umbrella term for the <code>property</code> and <code>property value</code>. The <code>declaration</code> contains the style rule for the HTML element(s) defined by the <code>selector</code>. Each <code>declaration</code> can only alter one property of an element. Though many <code>declarations</code> can be placed under one <code>selector</code>.
-        </p>
-
-        <p>
-            <code>property</code> - stylable feature in an element
-        </p>
-
-        <p>
-            <code>propery value</code> - defines the specific output/change in a given property
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <pre>
+                    <code>
+selector {
+    property: property value;
+}
+                    </code>
+                </pre>
+        
+                <p>
+                    The above code snippet is what is referred to as a <code>ruleset</code>. Every ruleset consists of the following pieces:
+                </p>
+        
+                <p>
+                    <code>selector</code> - Defines the element to be styled
+                </p>
+        
+                <p>
+                    <code>declaration</code> - umbrella term for the <code>property</code> and <code>property value</code>. The <code>declaration</code> contains the style rule for the HTML element(s) defined by the <code>selector</code>. Each <code>declaration</code> can only alter one property of an element. Though many <code>declarations</code> can be placed under one <code>selector</code>.
+                </p>
+        
+                <p>
+                    <code>property</code> - stylable feature in an element
+                </p>
+        
+                <p>
+                    <code>propery value</code> - defines the specific output/change in a given property
+                </p>
+            </div>
+        </div>
 
         <h4>
             Selectors
         </h4>
 
-        <pre>
-            <code>
-    selector1,
-    selector2,
-    selector3 {
-        declaration;
-    }
-            </code>
-        </pre>
-
-        <p>
-            As can be seen you can attribute multiple <code>selectors</code> to a singular ruleset, if you want your given rules to apply on a broader scope. <code>Selectors</code> come in many forms, with each form providing a unique specificity and universality.
-        </p>
-
-        <p>
-            <code>element {</code> - <b>element selector</b> - changes all elements in HTML file with the same tag
-        </p>
-
-        <p>
-            <code>#id-name {</code> - <b>ID selector</b> - changes all elements with an ID atrtibute of the same name in the HTML file.
-        </p>
-
-        <p>
-            <code>.my-class {</code> - <b>class selector</b> - changes all elements with a class attribute of the same name in the HTML file.
-        </p>
-
-        <p>
-            <code>element[attribute="value"] {</code> - <b>attribute selector</b> - changes all elements with a specific attribute and value in the HTML file.
-        </p>
-
-        <p>
-            <code>element:pseudo-Class {</code> - <b>pseudo class selector</b> - changes named element(s) when a specific condition is met
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <pre>
+                    <code>
+selector1,
+selector2,
+selector3 {
+    declaration;
+}
+                    </code>
+                </pre>
+        
+                <p>
+                    As can be seen you can attribute multiple <code>selectors</code> to a singular ruleset, if you want your given rules to apply on a broader scope. <code>Selectors</code> come in many forms, with each form providing a unique specificity and universality.
+                </p>
+        
+                <p>
+                    <code>element {</code> - <b>element selector</b> - changes all elements in HTML file with the same tag
+                </p>
+        
+                <p>
+                    <code>#id-name {</code> - <b>ID selector</b> - changes all elements with an ID atrtibute of the same name in the HTML file.
+                </p>
+        
+                <p>
+                    <code>.my-class {</code> - <b>class selector</b> - changes all elements with a class attribute of the same name in the HTML file.
+                </p>
+        
+                <p>
+                    <code>element[attribute="value"] {</code> - <b>attribute selector</b> - changes all elements with a specific attribute and value in the HTML file.
+                </p>
+        
+                <p>
+                    <code>element:pseudo-Class {</code> - <b>pseudo class selector</b> - changes named element(s) when a specific condition is met
+                </p>
+            </div>
+        </div>
 
         <h4>
             Font Declarations
         </h4>
         
-        <p>
-            <code>color</code> - change the color of a font
-        </p>
-
-        <p>
-            <code>text-decoration</code> - underline, strike through or overline font
-        </p>
-
-        <p>
-            <code>font-size</code> - establish the size of the font with the following measurements:
-        </p>
-
-        <ul>
-            <li>
-                <code>px</code> - pixels
-            </li>
-
-            <li>
-                <code>em</code> - relative size where 1 is the size of the parent element
-            </li>
-
-            <li>
-                <code>rem</code> - relative size where 1 is the size of the root element in the HTML doc
-            </li>
-        </ul>
-
-        <p>
-            <code>font-style</code> - italcize font
-        </p>
-
-        <p>
-            <code>font-weight</code> - bold font with varying degrees of boldness
-        </p>
-
-        <p>
-            <code>text-transform</code> - change font to uppercase, lowercase, capitalized or full-width
-        </p>
-
-        <p>
-            <code>text-shadow: [horizontal offset] [vertical offset] [blur radius] [base color]</code>
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    <code>color</code> - change the color of a font
+                </p>
+        
+                <p>
+                    <code>text-decoration</code> - underline, strike through or overline font
+                </p>
+        
+                <p>
+                    <code>font-size</code> - establish the size of the font with the following measurements:
+                </p>
+        
+                <ul>
+                    <li>
+                        <code>px</code> - pixels
+                    </li>
+        
+                    <li>
+                        <code>em</code> - relative size where 1 is the size of the parent element
+                    </li>
+        
+                    <li>
+                        <code>rem</code> - relative size where 1 is the size of the root element in the HTML doc
+                    </li>
+                </ul>
+        
+                <p>
+                    <code>font-style</code> - italcize font
+                </p>
+        
+                <p>
+                    <code>font-weight</code> - bold font with varying degrees of boldness
+                </p>
+        
+                <p>
+                    <code>text-transform</code> - change font to uppercase, lowercase, capitalized or full-width
+                </p>
+        
+                <p>
+                    <code>text-shadow: [horizontal offset] [vertical offset] [blur radius] [base color]</code>
+                </p>
+            </div>
+        </div>
 
         <h4>
             Font Family
         </h4>
 
-        <p>
-            The <code>font-family</code> is another font declaration. Though one that comes with specific considerations. Font must be chosen and declared carefully to ensure accessibility when designing a website.
-        </p>
 
-        <h5>
-            Web Safe Fonts:
-        </h5>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    The <code>font-family</code> is another font declaration. Though one that comes with specific considerations. Font must be chosen and declared carefully to ensure accessibility when designing a website.
+                </p>
+            </div>
+        </div>
 
-        <ul>
-            <li>
-                <code>Arial</code>
-            </li>
+        <h4>
+            Web Safe Fonts
+        </h4>
 
-            <li>
-                <code>Courier new</code>
-            </li>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <ul>
+                    <li>
+                        <code>Arial</code>
+                    </li>
+        
+                    <li>
+                        <code>Courier new</code>
+                    </li>
+        
+                    <li>
+                        <code>Georgia</code>
+                    </li>
+        
+                    <li>
+                        <code>Times New Roman</code>
+                    </li>
+        
+                    <li>
+                        <code>Trebuchet MS</code>
+                    </li>
+        
+                    <li>
+                        <code>Verdana</code>
+                    </li>
+                </ul>
+            </div>
+        </div>
 
-            <li>
-                <code>Georgia</code>
-            </li>
 
-            <li>
-                <code>Times New Roman</code>
-            </li>
+        <h4>
+            Default Fonts
+        </h4>
 
-            <li>
-                <code>Trebuchet MS</code>
-            </li>
-
-            <li>
-                <code>Verdana</code>
-            </li>
-        </ul>
-
-        <h5>
-            Default Fonts:
-        </h5>
-
-        <ul>
-            <li>
-                <code>serif</code> - the letters contain floruishes
-            </li>
-
-            <li>
-                <code>sans-serif</code> - blocky flourish-less lettering
-            </li>
-
-            <li>
-                <code>monospace</code> - characters all have the same width
-            </li>
-
-            <li>
-                <code>cursive</code> - emulate handwriting
-            </li>
-
-            <li>
-                <code>fantasy</code> - decorative font
-            </li>
-        </ul>
-
-        <p>
-            The <code>font-family</code> declaration contains a fallback system that will load a backup if the initial, requested font is not displayable by the browser. It is best practice to always start with the specific font(s) you would like and then the generic family as a fallback. For example:
-        </p>
-
-        <code>
-            font-family: Arial, Helvetica, sans-serif;
-        </code>
-
-        <p>
-            The above declaration asks for the <code>Arial</code> and <code>Helvetica</code> fonts from the <code>sans-serif</code> family. If neither of the two requested fonts are available it will at least display something similar from the generic root.
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <ul>
+                    <li>
+                        <code>serif</code> - the letters contain floruishes
+                    </li>
+        
+                    <li>
+                        <code>sans-serif</code> - blocky flourish-less lettering
+                    </li>
+        
+                    <li>
+                        <code>monospace</code> - characters all have the same width
+                    </li>
+        
+                    <li>
+                        <code>cursive</code> - emulate handwriting
+                    </li>
+        
+                    <li>
+                        <code>fantasy</code> - decorative font
+                    </li>
+                </ul>
+        
+                <p>
+                    The <code>font-family</code> declaration contains a fallback system that will load a backup if the initial, requested font is not displayable by the browser. It is best practice to always start with the specific font(s) you would like and then the generic family as a fallback. For example:
+                </p>
+        
+                <code>
+                    font-family: Arial, Helvetica, sans-serif;
+                </code>
+        
+                <p>
+                    The above declaration asks for the <code>Arial</code> and <code>Helvetica</code> fonts from the <code>sans-serif</code> family. If neither of the two requested fonts are available it will at least display something similar from the generic root.
+                </p>
+            </div>
+        </div>
 
         <h4>
             Text Layout Styles
         </h4>
 
-        <p>
-            <code>text-align</code> - align the text within the parent element
-        </p>
-
-        <p>
-            <code>line-height</code> - change the sutance between lines of text
-        </p>
-
-        <p>
-            <code>letter-spacing</code> - change the distance between letters
-        </p>
-
-        <p>
-            <code>word-spacing</code> - change the distance between words
-        </p>
-
-        <p>
-            <code>text-underline-position</code> - change the height of an underline
-        </p>
-
-        <p>
-            <code>text-indent</code> - define indentation of first line in each block of text
-        </p>
-
-        <p>
-            <code>text-overflow</code> - define how to signal that content is not being shown
-        </p>
-
-        <p>
-            <code>word-break</code> - whether or not to break words over two lines
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+                <p>
+                    <code>text-align</code> - align the text within the parent element
+                </p>
+        
+                <p>
+                    <code>line-height</code> - change the sutance between lines of text
+                </p>
+        
+                <p>
+                    <code>letter-spacing</code> - change the distance between letters
+                </p>
+        
+                <p>
+                    <code>word-spacing</code> - change the distance between words
+                </p>
+        
+                <p>
+                    <code>text-underline-position</code> - change the height of an underline
+                </p>
+        
+                <p>
+                    <code>text-indent</code> - define indentation of first line in each block of text
+                </p>
+        
+                <p>
+                    <code>text-overflow</code> - define how to signal that content is not being shown
+                </p>
+        
+                <p>
+                    <code>word-break</code> - whether or not to break words over two lines
+                </p>
+            </div>
+        </div>
 
         <h4>
             CSS Box Model
         </h4>
 
-        <img src="Images/box-model.png" alt="A representation of the layers that make the CSS box model" width="520" height="253">
+        <div class="section-content">
+            <img 
+                src="Images/box-model.png" 
+                alt="A representation of the layers that make the CSS box model" 
+                width="520" 
+                height="253"
+            >
+        </div>
 
-        <p>
-            Within CSS there are multiple facets that come together to produce a box or contianer. Moving from the inside out, they are as follows:
-        </p>
-
-        <ol>
-            <li>
-                <code>content-box</code> - the border around the information contained within the element or container
-            </li>
-
-            <li>
-                <code>padding</code> - the spacing between the edge of the element and the information contained within
-            </li>
-
-            <li>
-                <code>border</code> - the edge of the element
-            </li>
-
-            <li>
-                <code>margin</code> - the spacing between the edge of the element and other elements
-            </li>
-        </ol>
-
-        <p>
-            When we talk about spacing elements and shifting the layout in CSS it is largely done through altering these properties of an element.
-        </p>
+        <div class="neumorphic-box">
+            <div class="section-content">
+        
+                <p>
+                    Within CSS there are multiple facets that come together to produce a box or contianer. Moving from the inside out, they are as follows:
+                </p>
+        
+                <ol>
+                    <li>
+                        <code>content-box</code> - the border around the information contained within the element or container
+                    </li>
+        
+                    <li>
+                        <code>padding</code> - the spacing between the edge of the element and the information contained within
+                    </li>
+        
+                    <li>
+                        <code>border</code> - the edge of the element
+                    </li>
+        
+                    <li>
+                        <code>margin</code> - the spacing between the edge of the element and other elements
+                    </li>
+                </ol>
+        
+                <p>
+                    When we talk about spacing elements and shifting the layout in CSS it is largely done through altering these properties of an element.
+                </p>
+            </div>
+        </div>
 
     </main>
 
@@ -589,7 +679,7 @@ Please submit a .zip (no .7z or .rar files) of your folder, containing your .htm
             </ul>
         </nav>
 
-        <p>Mohammad Razi Fakih - A01298047</p>
+        <code>Mohammad Razi Fakih - A01298047</code>
 
     </footer>
 </body>
