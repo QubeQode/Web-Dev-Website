@@ -21,7 +21,7 @@ main {
 
 h1 {
     color:rgb(182, 193, 203);
-    font-family: 'Silkscreen', cursive;
+    font-family: 'Silkscreen', sans-serif;
     font-size: 3rem;
     border-bottom: 0.02rem solid rgb(182, 193, 203);
     margin: 0px;
